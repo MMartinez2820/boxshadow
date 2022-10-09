@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOXSHADOW</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="header">
+    <div class="cotrol_panel"> 
+    <h1>Box Schadow</h1>
+
+    <p>Box Shadow Orizontal</p>
+    <input type="range" value="10" min="-200" max="200" 
+    class="h-shadow">
+
+    <p>Box Shadow Vertical</p>
+    <input type="range" value="10" min="-200" max="200" 
+    class="v-shadow">
+
+    <p>Blur Radius</p>
+    <input type="range" value="5px" min="0" max="400" 
+    class="b-radius">
+
+    <p>Spread Radius</p>
+    <input type="range" value="0" min="-200" max="200" 
+    class="s-radius">
+
+    <p>Box Shadow Color</p>
+    <input type="color" value="rgba(0, 0, 0, 1)" class="sh-color">
+
+    <p>Box Shadow Opacity</p>
+    <input type="range" value="0.75" min="0" max="1" 
+    class="op-color">
+    </div>
+
+    <div class="content" style="text-align: center;">
+      <div class="block"></div>
+      <textarea class="out" disabled>box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1)</textarea>
+      <button class="copy">Copy</button>
+    </div>
+ 
+  </section>
+
+  </body>
+  <script src="./jscript.js"></script>
+  <footer>by Miguel Martinez for Academlo</footer>
+</html>

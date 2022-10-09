@@ -1,0 +1,54 @@
+
+.header{
+  display: flex;
+  padding: 50px;
+}
+
+h1{
+  font-size: 40px;
+}
+.content {
+  width: 100%;
+}
+
+.block{
+  width: 350px;
+  height: 200px;
+  background: rgb(132, 188, 241);
+  margin: 50px auto;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
+}
+.out{
+  height: 50px;
+  width: 350px;
+  background: rgb(23, 236, 155);
+  padding: 20px 0 0 20px;
+  margin: 120px auto 0;
+  resize: none;
+  display: block;
+  color: black;
+
+}
+
+.copy {
+  width: 100px;
+  height: 25px;
+  background: black;
+  color: #fff;
+  margin: 50px auto;
+
+}
+ p{
+  text-align: center;
+  display: flex;
+  font-size: large;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+footer{
+  padding: -40px;
+  text-align: right;
+  margin-top: 10px;
+}
